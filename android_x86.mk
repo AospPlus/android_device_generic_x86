@@ -37,3 +37,4 @@ PRODUCT_PACKAGES += \
 		ssh-copy-id \
 		rsync
 
+$(call inherit-product-if-exists, vendor/google/gapps/gapps.mk)
