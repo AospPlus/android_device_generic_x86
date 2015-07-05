@@ -22,3 +22,11 @@ PRODUCT_NAME := android_x86
 PRODUCT_BRAND := Android-x86
 PRODUCT_DEVICE := x86
 PRODUCT_MODEL := Generic Android-x86
+
+PRODUCT_PROPERTY_OVERRIDES += \
+		ro.dalvik.vm.isa.arm=x86 \
+		ro.enable.native.bridge.exec=1
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+		ro.dalvik.vm.native.bridge=libhoudini.so
+
