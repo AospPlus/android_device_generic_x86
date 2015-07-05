@@ -31,3 +31,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 		ro.dalvik.vm.native.bridge=libhoudini.so
 
+PRODUCT_PACKAGES += \
+		ssh \
+		sshd \
+		ssh-copy-id \
+		rsync
+
