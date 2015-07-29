@@ -32,6 +32,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 		ro.dalvik.vm.native.bridge=libhoudini.so
 
 PRODUCT_PACKAGES += \
+		vaio_multiflip \
 		ssh \
 		sshd \
 		ssh-copy-id \
